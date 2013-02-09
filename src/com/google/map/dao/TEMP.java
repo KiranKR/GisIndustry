@@ -13,11 +13,7 @@ public class TEMP {
 	public static void main(String[] args) {
 		try {
 			 
-			File fXmlFile = new File("C:\\Documents and Settings\\Ample\\Desktop\\finalWater.kml");
-			DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
-			DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
-			Document doc = (Document) dBuilder.parse(fXmlFile);
-		 
+			
 			//optional, but recommended
 			//read this - http://stackoverflow.com/questions/13786607/normalization-in-dom-parsing-with-java-how-does-it-work
 			doc.getDocumentElement().normalize();
